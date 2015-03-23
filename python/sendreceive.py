@@ -1,7 +1,7 @@
 import serial
 import requests
 devicecode = ""  # INSERT HERE YOUR DEVICEcode thing
-arduino = serial.Serial(, 9600, timeout=.1)
+arduino = serial.Serial(devicecode, 9600, timeout=.1)
 apikey = ""  # INSERT HERE YOUR THINGSPEAK APICODE
 url = "http://api.thingspeak.com/update?key="+apikey
 
