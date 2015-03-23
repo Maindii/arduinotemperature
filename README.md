@@ -1,0 +1,1 @@
+This is a small project that uses Arduino Uno and TMP36 temp chip to get temperature and then write it to serial. Python side reads serial and then submits the data to some website that makes a cool graph.
